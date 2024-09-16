@@ -2,9 +2,9 @@ import tkinter as tk
 from gpiozero import LED
 
 # Define LEDs connected to GPIO pins
-led1 = LED(26)  # LED 1 on GPIO 17
-led2 = LED(3)  # LED 2 on GPIO 27
-led3 = LED(2)  # LED 3 on GPIO 26
+led1 = LED(26)  # LED 1 on GPIO 26
+led2 = LED(3)  # LED 2 on GPIO 3
+led3 = LED(2)  # LED 3 on GPIO 2
 
 # Function to turn off all the LED
 def reset_led():
